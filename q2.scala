@@ -40,9 +40,9 @@ object Q2 {
 
   def main(args: Array[String]): Unit = {
    
+    println(isBookInLibrary("3421351"))
     addBook(Book("Brave New World", "Aldous Huxley", "6677889900"))
     removeBook("12415124") // Remove"The Dark Room"
-    println(isBookInLibrary("3421351"))   //print Ignited minds
     displayLibrary()
 
     val searchResult = searchBookByTitle("Ignited Minds")
