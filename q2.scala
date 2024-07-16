@@ -12,10 +12,12 @@ object Q2 {
 
   def addBook(book: Book): Unit = {
     library += book
+    println("Book successfully added")
   }
 
   def removeBook(isbn: String): Unit = {
     library = library.filterNot(_.isbn == isbn)
+    println("Book successfully removed")
   }
 
   def isBookInLibrary(isbn: String): Boolean = {
