@@ -52,6 +52,6 @@ object Q2 {
       case Some(book) => println(s"Book is found: ${book.title}, Author: ${book.author}, ISBN: ${book.isbn}")
       case None => println("Book not found")
     }
-    displayBooksByAuthor("Vikram Seth")//display books of Vikram Seth
+    displayBooksByAuthor("Vikram Seth")
   }
 }
