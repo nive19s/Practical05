@@ -47,7 +47,7 @@ object Q2 {
 
     val searchResult = searchBookByTitle("Ignited Minds")
     searchResult match {
-      case Some(book) => println(s"Found book: ${book.title}, Author: ${book.author}, ISBN: ${book.isbn}")
+      case Some(book) => println(s"Book is found: ${book.title}, Author: ${book.author}, ISBN: ${book.isbn}")
       case None => println("Book not found")
     }
     displayBooksByAuthor("Vikram Seth")//display books of Vikram Seth
